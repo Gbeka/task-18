@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./js.js":
+/*!***************!*\
+  !*** ./js.js ***!
+  \***************/
+/***/ (() => {
+
+eval("const container=document.querySelector(\".container\");\r\n\r\n\r\nconst box=document.createElement(\"div\");\r\nbox.classList=\"box\";\r\ncontainer.appendChild(box);\r\n\r\n\r\nconst about=document.createElement(\"div\");\r\nabout.classList=\"about\";\r\nabout.innerText=\"About\";\r\nbox.appendChild(about);\r\n\r\nconst description=document.createElement(\"div\");\r\ndescription.classList=\"description\";\r\nbox.appendChild(description);\r\n\r\n\r\n\r\nconst image=document.createElement(\"img\");\r\nimage.setAttribute(\"src\",'123.jpg');\r\nimage.classList=\"image\";\r\ndescription.appendChild(image);\r\n\r\n\r\nconst textPart=document.createElement(\"div\");\r\ntextPart.classList=\"textPart\";\r\ndescription.appendChild(textPart);\r\n\r\n\r\n\r\nconst title=document.createElement(\"div\");\r\ntitle.classList=\"title\";\r\ntextPart.appendChild(title);\r\n\r\n\r\nconst aboutUs=document.createElement(\"div\");\r\naboutUs.classList=\"aboutUs\";\r\naboutUs.innerText=\"About us\";\r\ntitle.appendChild(aboutUs);\r\n\r\nconst ourMission=document.createElement(\"div\");\r\nourMission.classList=\"aboutUs\";\r\nourMission.innerText=\"Our Mission\";\r\ntitle.appendChild(ourMission);\r\n\r\n\r\nconst ourGoals=document.createElement(\"div\");\r\nourGoals.classList=\"aboutUs\";\r\nourGoals.innerText=\"Our Goals\";\r\ntitle.appendChild(ourGoals);\r\n\r\n\r\n\r\nconst text1=document.createElement(\"div\");\r\ntext1.classList=\"text1\";\r\nconst text1Title=document.createElement(\"div\")\r\ntext1Title.innerText=\"About us\";\r\ntext1Title.classList=\"text1Title\";\r\nconst text1desc=document.createElement(\"div\")\r\ntext1desc.innerText=\"As a small or midsize business (SMB), your company website is often the first touchpoint for potential clients — and you want it to make a great first impression. The secret to hitting home with your audience is to have a sophisticated and lively website design that’s aesthetically pleasing and provides great user experience (UX).\"\r\ntext1desc.classList=\"text1desc\";\r\ntext1.appendChild(text1Title);\r\ntext1.appendChild(text1desc);\r\ntextPart.appendChild(text1);\r\n\r\n\r\nconst text2=document.createElement(\"div\");\r\ntext2.classList=\"text1\";\r\nconst text2Title=document.createElement(\"div\")\r\ntext2Title.innerText=\"Our Mission\";\r\ntext2Title.classList=\"text1Title\";\r\nconst text2desc=document.createElement(\"div\")\r\ntext2desc.innerText=\"And if you’re excited to launch your own custom website, WebFX offers web design plans, tailored to your business goals! With an award-winning portfolio of over 1,128 stunning websites, we know our way around effective web design. Contact us online or call us at 888-601-5359 to start building your dream website!Court & Rowe sells\"\r\ntext1desc.classList=\"text1desc\";\r\ntext2.appendChild(text2Title);\r\ntext2.appendChild(text2desc);\r\ntextPart.appendChild(text2);\r\ntext2.style.display=\"none\";\r\n\r\nconst text3=document.createElement(\"div\");\r\ntext3.classList=\"text1\";\r\nconst text3Title=document.createElement(\"div\")\r\ntext3Title.innerText=\"Our Goals\";\r\ntext3Title.classList=\"text1Title\";\r\nconst text3desc=document.createElement(\"div\")\r\ntext3desc.innerText=\"Ready to get started with your own company website? Check out our fresh and exciting web design plans.You can use our web design calculator or get a free quote. For rapid web designs, take a look at our exclusive RainmakerFX! We’ll make you a corporate-ready website in 30 days.Contact us online or call us at 888-601-5359 for a custom business design for your website.\"\r\ntext1desc.classList=\"text1desc\";\r\ntext3.appendChild(text3Title);\r\ntext3.appendChild(text3desc);\r\ntextPart.appendChild(text3);\r\ntext3.style.display=\"none\";\r\n\r\n\r\ntext1.style.backgroundColor=\"white\";\r\n        aboutUs.style.backgroundColor=\"white\";\r\n\r\n        ourMission.style.backgroundColor=\"#a3c4f3\";\r\n        ourGoals.style.backgroundColor=\"#a3c4f3\";\r\n\r\naboutUs.addEventListener(\"click\",function(){\r\n    if(text1.style.display=\"none\"){\r\n        text1.style.display=\"block\"\r\n        text2.style.display=\"none\"\r\n        text3.style.display=\"none\"\r\n       text1.style.backgroundColor=\"white\";\r\n        aboutUs.style.backgroundColor=\"white\";\r\n\r\n        ourMission.style.backgroundColor=\"#a3c4f3\";\r\n        ourGoals.style.backgroundColor=\"#a3c4f3\";\r\n    }\r\n})\r\n\r\n\r\nourMission.addEventListener(\"click\",function(){\r\n    if(text2.style.display=\"none\"){\r\n        text2.style.display=\"block\"\r\n        text1.style.display=\"none\"\r\n        text3.style.display=\"none\"\r\n        text2.style.backgroundColor=\"white\";\r\n        ourMission.style.backgroundColor=\"white\";\r\n\r\n        aboutUs.style.backgroundColor=\"#a3c4f3\";\r\n        ourGoals.style.backgroundColor=\"#a3c4f3\";\r\n    }\r\n})\r\n\r\n\r\nourGoals.addEventListener(\"click\",function(){\r\n    if(text3.style.display=\"none\"){\r\n        text3.style.display=\"block\"\r\n        text1.style.display=\"none\"\r\n        text2.style.display=\"none\"\r\n        text3.style.backgroundColor=\"white\";\r\n        ourGoals.style.backgroundColor=\"white\";\r\n        aboutUs.style.backgroundColor=\"#a3c4f3\";\r\n        ourMission.style.backgroundColor=\"#a3c4f3\";\r\n\r\n    }\r\n})\r\n\n\n//# sourceURL=webpack://task-18/./js.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./js.js"]();
+/******/ 	
+/******/ })()
+;
