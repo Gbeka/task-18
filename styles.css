@@ -1,0 +1,55 @@
+.container{
+margin:20px;
+}
+
+.box{
+background-color: #dfe7fd;
+}
+
+.about{
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.description{
+display: flex;
+margin:30px;
+height: 500px;
+}
+
+.image{
+width: 700px;
+margin: 10px;
+border-radius: 2%;
+}
+
+.textPart{
+
+width: 700px;
+border-radius: 2%;
+
+}
+
+.title{
+display: flex;
+width:900px;
+font-size: 20px;
+height: 100px;
+}
+
+.text1{
+
+padding:110px;
+font-size: 18px;
+}
+
+.text1Title{
+font-weight: 700;
+margin:10px;
+}
+
+.aboutUs{
+    padding:10px 78px 10px 70px;
+}
+
